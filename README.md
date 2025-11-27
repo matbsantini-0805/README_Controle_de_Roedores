@@ -30,7 +30,7 @@ Tabela contendo as posições X e Y de cada ratoeira.
 ### ✔ Como foi construída  
 - Baseada nos mapas das unidades (DSV).  
 - Cada ratoeira tem suas coordenadas X/Y conforme o mapa.
-- Comentário: coordenadas podem ser retiradas de forma simples utilizando o Paint.  
+   - Coordenadas podem ser retiradas de forma simples utilizando o Paint.  
 
 ### ✔ Para que serve  
 - Geração do **mapa interativo** no Power BI.   
@@ -60,11 +60,7 @@ O consumo indica no mapa o nível de consumo que a ratoeira apresenta, podendo s
 Negativo, Toque, Baixo, Médio ou Alto.
 
 ### Legenda no mapa:
-🔴 Alto  
-🟡 Médio  
-🔵 Baixo
-🟣 Toque
-🗙 Negativo  
+🔴 Alto 🟡 Médio 🔵 Baixo 🟣 Toque 🗙 Negativo  
 
 A classificação é feita a partir do padrão abaixo:
 
@@ -77,8 +73,6 @@ A classificação é feita a partir do padrão abaixo:
 
 ## Exemplo Tabela de Leitura
 <img width="846" height="343" alt="image" src="https://github.com/user-attachments/assets/ab2b7b93-4bab-48f2-9d92-1b4e540fe77f" />
-
---
 
 2. Abrir a aba que estiver sendo registrada na tabela "Roedores".
 
@@ -122,7 +116,7 @@ Os gráficos inferiores indicam consumo dentro dos núcleos no período selecion
 <img width="948" height="539" alt="image" src="https://github.com/user-attachments/assets/d0cf2a43-2704-448f-8c40-c896e476481e" />
 
 ✔ Atualizar dados  
-- Sempre clicar em **Atualizar** ao abrir o arquivo.
+- Sempre clicar em **Atualizar** ao abrir o arquivo .pbix da pasta.
 
 <img width="1365" height="720" alt="image" src="https://github.com/user-attachments/assets/7458398a-e9e7-4ec7-be3c-142a33f7bb5d" />
 
@@ -148,6 +142,7 @@ A guia *Evolução Mensal* exibe o consumo da unidade por data e área, permitin
 <img width="946" height="538" alt="image" src="https://github.com/user-attachments/assets/fe04774a-4cb0-4b94-ae19-9ef621142108" />
 
 A guia de cada área mostra o **mapa interativo** das ratoeiras com a legenda de consumo, filtros de data e área, além da tabela com motivos de troca e observações.  
+
 Também há:
 - Gráfico de evolução de consumo por ratoeira  
 - Seleção direta via mapa ou tabela  
@@ -163,11 +158,11 @@ A guia *Controle de Troca de Iscas* exibe a quantidade de trocas por área, perm
 
 ## 4️⃣ Limitações e Possíveis Erros
 
--A planilha de leitura pode conter erros de digitação.
--Sempre conferir o documento original em caso de erros de digitação ou falta de algum dado.
--Mudanças nos mapas devem ser atualizados no mapa do Power BI e nas coordenadas das ratoeiras.
--A falta ou implementação de uma ratoeira pode gerar erros nas referências de visualização do mapa ou da ratoeira.
--Certifique-se de estar conectado à rede/VPN ao salvar.
+- A planilha de leitura pode conter erros de digitação.
+- Sempre conferir o documento original em caso de erros de digitação ou falta de algum dado.
+- Mudanças nos mapas devem ser atualizados no mapa do Power BI e nas coordenadas das ratoeiras.
+- A falta ou implementação de uma ratoeira pode gerar erros nas referências de visualização do mapa ou da ratoeira.
+- Certifique-se de estar conectado à rede/VPN ao salvar.
 
 ## 5️⃣ Sugestões
 
