@@ -59,7 +59,7 @@ O consumo numérico é calculado com base nas somas obtidas a partir dos registr
 O consumo indica no mapa o nível de consumo que a ratoeira apresenta, podendo ser:
 Negativo, Toque, Baixo, Médio ou Alto.
 
-### Legenda no mapa:
+## Legenda no mapa:
 🔴 Alto 🟡 Médio 🔵 Baixo 🟣 Toque 🗙 Negativo  
 
 A classificação é feita a partir do padrão abaixo:
@@ -107,7 +107,7 @@ Se não tiver acesso, solicitar instalação ao TI (via Microsoft Store).
 Como o Qlik é o software oficial da empresa, utilizamos apenas a versão gratuita do Power BI, sem recursos de compartilhamento online corporativo.
 
 ---
-🟥 **Controle Roedores Geral**
+## 🟥 **Controle Roedores Geral**
 
 Esse dashboard permite ter uma visualização geral de um conjunto de unidades. Ele mostra o consumo numérico total das unidades, permitindo a comparação entre elas. É possível visualizar o consumo mensal selecionando um intervalo de tempo, além do consumo de iscas por unidade e áreas, com filtros específicos para áreas dos núcleos.
 
@@ -133,7 +133,7 @@ Os gráficos inferiores indicam consumo dentro dos núcleos no período selecion
 
 ---
 
-🟥 **Controle Roedores de cada Unidade**
+## 🟥 **Controle Roedores de cada Unidade**
 
 Esse dashboard permite visualizar as leituras de ratoeiras para agir de forma mais rápida e precisa em caso de risco ao aviário. Ele mostra o consumo geral da unidade, possui guias individuais para cada área e uma guia de controle de estoque de iscas utilizadas.
 
