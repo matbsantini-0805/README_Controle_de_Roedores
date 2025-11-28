@@ -3,6 +3,18 @@ Este repositório contém a documentação completa do processo de controle de r
 ---
 Antes de começar, é obrigatório ler e compreender o POP 10-05 para garantir que os registros estejam de acordo com o procedimento oficial. 
 --
+
+# 📌 Índice
+
+- [Caminho de Acesso](#1️⃣-caminho-de-acesso)
+- [Estrutura das Tabelas](#2️⃣-estrutura-das-tabelas)
+- [Visualização Power BI](#3️⃣-visualização-power-bi)
+- [Limitações e Possíveis Erros](#4️⃣-limitações-e-possíveis-erros)
+- [Sugestões](#5️⃣-sugestões)
+- [Créditos / Referências](#6️⃣-créditos--referências)
+
+---
+
 ## 1️⃣ Caminho de Acesso
 
 As planilhas e dashboards estão armazenados em:
@@ -63,6 +75,17 @@ Negativo, Toque, Baixo, Médio ou Alto.
 🔴 Alto 🟡 Médio 🔵 Baixo 🟣 Toque 🗙 Negativo  
 
 A classificação é feita a partir do padrão abaixo:
+
+- Se `Status = "Toque"` → **Toque**
+- Se `Status = "Negativo"` → **Negativo**
+- Senão:
+  - Se `Inteira >= 1` → **Alto**
+  - Se `Três quartos >= 1` → **Alto**
+  - Se `Metade >= 2` → **Alto**
+  - Se `Um quarto >= 3` → **Alto**
+  - Se `Metade >= 1` → **Médio**
+  - Se `Um quarto >= 2` → **Médio**
+  - Se `Um quarto >= 1` → **Baixo**
 
 ---
 
